@@ -24,3 +24,4 @@ To run the tests use parameters accordingly. For instance to run a test for mnis
 ```
 python3 -m deepconcolic.main --outputs outs/simple-mnist-ssc --dataset mnist --model saved_models/simple_DNN_for_mnist.h5 --criterion ssc --norm linf
 ```
+It should be possible to replicate all the tests, however some of the DNNs are missing: this is due to the github file size limits. However all neural networks can be generated using DeepModels repository:https://github.com/sielos/DeepModels. Further instructions are provided there as well.
